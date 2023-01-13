@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container-fluid main_menu">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div>
+            <nav
+              class="navbar navbar-expand-md sticky-top"
+            >
+              <div class="container-fluid">
+                <a class="navbar-brand fa fa-home" href="#">&nbsp;Weather</a
+                ><button
+                  data-bs-toggle="collapse"
+                  class="navbar-toggler"
+                  data-bs-target="#navcol-1"
+                >
+                  <span class="visually-hidden">Toggle navigation</span
+                  ><span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link  active" href="/"
+                        ><i class="fa"></i>Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active"  href="/weather"
+                        ><i class="fa"></i>Weather</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="/about"
+                        ><i class="fa"></i>About</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main header -->
+    <div class="container-fluid main_menu">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <div class="col-md-6 col-12 main_header_right1">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <figure>
+                          <div class="carousel-item active">
+                            <img src="img/carol3.jpeg" class=" w-100" alt="...">
+                          </div>
+                        </figure>
+                      </div>
+                </div>
+            </div>
+                <!-- left side div -->
+                <div class="col-md-6 col-12 main_header_left1">
+                    <p>Welcome to Weather App</p>
+                    <h1>l am A <span>Mern Stack Developer</span> Thanks for visit</h1>
+                    <a href="/weather"><button>About me</button></a>
+                </div>
+                <!-- right side div -->
+                
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
